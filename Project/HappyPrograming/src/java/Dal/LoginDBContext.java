@@ -14,17 +14,16 @@ public class LoginDBContext extends DBContext<Account> {
     /**
      * Checks login credentials against the database.
      *
-     * @param user     the username
+     * @param user the username
      * @param password the password
      * @return an Account object if credentials are valid, otherwise null
      * @throws SQLException if a database access error occurs
      */
     public Account checkLogin(String user, String password) throws SQLException {
         String sql = "SELECT [user], [pass], [id], [role] FROM [Account] WHERE [user] = ? AND [pass] =  ?";
-        
-        try (Connection conn = connection;
-             PreparedStatement stm = conn.prepareStatement(sql)) {
-             
+
+        try (Connection conn = connection; PreparedStatement stm = conn.prepareStatement(sql)) {
+
             stm.setString(1, user);
             stm.setString(2, password);
 
@@ -40,5 +39,18 @@ public class LoginDBContext extends DBContext<Account> {
             }
         }
         return null;
+    }
+
+    public void registerUser(String user, String pass, String role, String email) throws SQLException {
+        String sql = "INSERT INTO [dbo].[Account] VALUES (?,?,?,?)";
+        try (Connection conn = connection; PreparedStatement stm = conn.prepareStatement(sql)) {
+
+            stm.setString(1, user);
+            stm.setString(2, pass);
+            stm.setString(3, role);
+            stm.setString(4, email);
+
+            stm.executeUpdate();
+        }
     }
 }
