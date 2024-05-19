@@ -1,10 +1,4 @@
-<%-- 
-    Document   : listskill
-    Created on : May 18, 2024, 10:11:20 PM
-    Author     : Admin
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,25 +6,47 @@
         <title>List Skill</title>
     </head>
     <body>
+        <h1>List of Skills</h1>
         <table border="1">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Status</th>
-            <th></th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Data 1</td>
-            <td>Data 2</td>
-            <td>Data 3</td>
-            <td><button>Update</button></td>
-            <td><button>Delete</button></td>
-        </tr>
-    </tbody>
-</table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Status</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <c:forEach var="s" items="${skills}">
+                    <tr>
+                        <td>${s.id}</td>
+                        <td>${s.name}</td>
+                        <td>
+                            <c:choose>
+                                <c:when test="${s.status == 1}">
+                                    Active
+                                </c:when>
+                                <c:otherwise>
+                                    Inactive
+                                </c:otherwise>
+                            </c:choose>
+                        </td>
+                        <td>
+                            <form action="updateSkill" method="post">
+                                <input type="hidden" name="id" value="${s.id}">
+                                <button type="submit">Update</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action="deleteSkill" method="post">
+                                <input type="hidden" name="id" value="${s.id}">
+                                <button type="submit">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                </c:forEach>
+            </tbody>
+        </table>
     </body>
 </html>

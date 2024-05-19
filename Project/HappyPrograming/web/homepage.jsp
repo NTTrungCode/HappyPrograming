@@ -21,7 +21,7 @@
         <a href="auth/signin.jsp">Sign In</a><br>
         <a href="auth/signup.jsp">Sign Up</a><br>
         <a href="">List Mentor</a><br>
-        <a href="skill/listskill.jsp">List Skill</a><br>
+        <a href="listskill">List Skill</a><br>
 
     </body>
 </html>
