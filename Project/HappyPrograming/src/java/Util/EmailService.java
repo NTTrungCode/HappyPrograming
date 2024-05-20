@@ -3,11 +3,15 @@ package util;
 import java.util.Properties;
 import jakarta.mail.*;
 import jakarta.mail.internet.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class EmailService {
 
-    private final String username = "hieupu2003@gmail.com";
-    private final String password = "fptunotme";
+    private static final Logger logger = Logger.getLogger(EmailService.class.getName());
+
+    private final String username = "hieudnmhe171083@fpt.edu.vn";
+    private final String password = "fmax pfao tlms zlet";
     private final String host = "smtp.gmail.com";
     private final int port = 587;
 
@@ -33,8 +37,10 @@ public class EmailService {
             message.setText(text);
 
             Transport.send(message);
+            logger.log(Level.INFO, "Email sent successfully to {0}", to);
         } catch (MessagingException e) {
-            throw new RuntimeException(e);
+            logger.log(Level.SEVERE, "Failed to send email to " + to, e);
+            throw new RuntimeException("Failed to send email", e);
         }
     }
 }

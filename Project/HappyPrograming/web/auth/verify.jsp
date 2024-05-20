@@ -1,28 +1,18 @@
-<%-- 
-    Document   : verify
-    Created on : May 18, 2024, 1:48:53 PM
-    Author     : Admin
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Verify Email</title>
+    <title>Verify Account</title>
 </head>
-<style>
-        a {
-                margin: 10px;
-                color: blue;
-            }
-    </style>
 <body>
-    <form action="/HappyPrograming/verify" method="post">
+    <h1>Verify Your Account</h1>
+    <form action="verify" method="post">
         <input type="hidden" name="email" value="${email}">
-        <label for="code">Verify Code:</label>
-        <input type="text" id="code" name="code" required>
-        <button type="submit">Submit</button>
+        <input type="hidden" name="username" value="${username}">
+        <input type="hidden" name="password" value="${password}">
+        <input type="hidden" name="role" value="${role}">
+        <label for="code">Verification Code:</label>
+        <input type="text" id="code" name="code" required><br><br>
+        <button type="submit">Verify</button>
     </form>
 </body>
 </html>
-
