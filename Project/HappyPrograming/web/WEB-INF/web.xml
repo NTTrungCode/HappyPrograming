@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 
 <web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
 	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	 xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
 	 version="6.0">
 
+=======
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>Controller.Login.LoginController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SignupController</servlet-name>
+        <servlet-class>Controller.Login.SignupController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VerifyController</servlet-name>
+        <servlet-class>Controller.Login.VerifyController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListSkillController</servlet-name>
+        <servlet-class>Controller.Skill.ListSkillController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CreateCvMentor</servlet-name>
+        <servlet-class>Controller.Mentor.ListSkillOfCreateMentor</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CreateCvOfMentor</servlet-name>
+        <servlet-class>Controller.Mentor.CreateCvMentor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SignupController</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VerifyController</servlet-name>
+        <url-pattern>/verify</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListSkillController</servlet-name>
+        <url-pattern>/listskill</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CreateCvMentor</servlet-name>
+        <url-pattern>/createCv</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CreateCvOfMentor</servlet-name>
+        <url-pattern>/create</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>homepage.jsp</welcome-file>
+    </welcome-file-list>
+>>>>>>> Stashed changes
 </web-app>
