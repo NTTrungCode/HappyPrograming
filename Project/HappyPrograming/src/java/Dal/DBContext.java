@@ -14,8 +14,14 @@ public class DBContext {
 =======
 public abstract class DBContext<T> {
 
+    /**
+     *
+     */
     protected Connection connection;
 
+    /**
+     *
+     */
     public DBContext() {
         try {
             String url = "jdbc:sqlserver://localhost:1433;databaseName=HappyPrograming;encrypt=true;trustServerCertificate=true;";
@@ -29,6 +35,13 @@ public abstract class DBContext<T> {
         }
     }
 
+<<<<<<< Updated upstream
+=======
+    /**
+     *
+     * @return
+     */
+>>>>>>> Stashed changes
     public Connection getConnection() {
         return connection;
     }
