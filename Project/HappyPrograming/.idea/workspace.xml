@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6080578c-6e22-44b6-b81b-f325e121d8d5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Controller/Login/BaseRequiredAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Controller/Login/BaseRequiredAuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Controller/Login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Controller/Login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Controller/Login/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Controller/Login/SignupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Controller/Login/VerifyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Controller/Login/VerifyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Controller/Skill/AddSkillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Controller/Skill/AddSkillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Controller/Skill/DeleteSkillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Controller/Skill/DeleteSkillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Controller/mentee/UpdateProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Controller/mentee/UpdateProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Controller/mentee/ViewProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Controller/mentee/ViewProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Dal/DBContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Dal/DBContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Dal/LoginDBContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Dal/LoginDBContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Dal/SkillDBContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Dal/SkillDBContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Dal/TestDBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Dal/TestDBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Entity/Mentee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Entity/Mentee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Entity/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Entity/Mentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Entity/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Entity/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Entity/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Entity/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Entity/Slot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Entity/Slot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Util/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Util/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/auth/menteesignup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/auth/menteesignup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/auth/mentorsignup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/auth/mentorsignup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/auth/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/auth/signin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/auth/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/auth/signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/auth/verify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/auth/verify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/homepage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/mentee/updatementeeprofile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mentee/updatementeeprofile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/mentee/viewmenteeprofile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mentee/viewmenteeprofile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/menteelogedinhomepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/menteelogedinhomepage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/mentorlogedinhomepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mentorlogedinhomepage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/skill/addskill.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/skill/addskill.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Hieupu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Hieupu/HappyPrograming.git",
+    "accountId": "028985e0-0afb-4ddc-b642-9c410819c20a"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2hHTo5Lc5lE9MoNlTeXiwywyCVn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Iter1",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6080578c-6e22-44b6-b81b-f325e121d8d5" name="Changes" comment="" />
+      <created>1717250175121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717250175121</updated>
+    </task>
+    <servers />
+  </component>
+</project>
